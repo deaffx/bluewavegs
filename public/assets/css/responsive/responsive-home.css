@@ -1,0 +1,168 @@
+@media screen and (max-width: 1200px) {
+  .cta {
+    flex-direction: column;
+    text-align: center;
+  }
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 50%;
+    padding: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-1 {
+    height: auto;
+  }
+  .faq {
+    flex-direction: column;
+  }
+
+  .faq-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+  }
+
+  .faq-right {
+    margin-top: 40px;
+    padding: 0;
+  }
+
+  .faq .right-content {
+    order: -1;
+  }
+
+  .right-content h2 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .faq-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+  }
+
+  .section-1 .section-image {
+    height: 200px;
+    width: 250px;
+  }
+
+  .faq-left {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+  }
+
+  .faq-left,
+  .faq-right {
+    width: 100%;
+  }
+
+  .faq-left h3 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+
+  .faq-left p {
+    font-size: 14px;
+  }
+
+  .faq-right ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .faq-right ul li {
+    margin-bottom: 10px;
+  }
+
+  .faq-right ul li a {
+    text-decoration: underline;
+    color: #0d6ede;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 0;
+  }
+
+  .faq-right button {
+    font-size: 14px;
+  }
+}
+
+.faq-right button {
+  background-color: #0d6ede;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 580px) {
+  .faq-right ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .faq-right ul li {
+    margin-bottom: 10px;
+  }
+
+  .faq-right ul li a {
+    font-size: 12px;
+  }
+
+  .cta div img {
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 26px #00000051;
+  }
+  .section-1 h2 {
+    font-size: 32px;
+  }
+
+  .section-1 .section-image {
+    display: none;
+  }
+
+  footer .redes-sociais a img {
+    width: 30px;
+    height: 30px;
+  }
+  footer .redes-sociais a {
+    width: 32px;
+    height: 32px;
+  }
+
+  footer .menu a {
+    font-size: 14px;
+  }
+
+  footer .logo {
+    max-width: 120px;
+    display: block;
+  }
+
+  footer .faixa .left {
+    font-size: 11px;
+  }
+  footer .faixa .right a {
+    font-size: 11px;
+  }
+}

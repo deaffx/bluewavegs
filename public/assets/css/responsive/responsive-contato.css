@@ -1,0 +1,39 @@
+@media screen and (max-width: 1200px) {
+  .profile-menu-contato {
+    width: 80%;
+  }
+
+  .profile-menu-contato .profiles-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile-menu-contato .profiles-wrapper .profile-card .profile-image img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .profile-menu-contato {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .profile-menu-contato .profiles-wrapper .profile-card .profile-image img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .profile-menu-contato {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .profile-menu-contato .profiles-wrapper .profile-card .profile-image img {
+    width: 130px;
+    height: 130px;
+  }
+}

@@ -1,0 +1,81 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-menu {
+  height: 500px;
+  width: 400px;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+}
+
+.login-menu .logo {
+  width: 70px;
+  height: 70px;
+  background-color: #ffffff00;
+  border-radius: 50%;
+}
+
+.login-menu .login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 30px;
+  padding: 80px 30px;
+}
+
+.login-menu .login-form .input {
+  border: none;
+  padding: 10px 0;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+
+  border-bottom: 1px #ccc solid;
+}
+
+.login-menu .login-form .input::placeholder {
+  color: #8f8f8f;
+  font-size: 16px;
+}
+
+.login-menu .login-form .input:focus {
+  border-bottom: 1px solid #5b49fc;
+}
+
+.login-menu .login-form .login-btn {
+  background-color: #5b49fc;
+  color: white;
+
+  width: 250px;
+  height: 50px;
+
+  border: none;
+  border-radius: 10px;
+  margin-top: 25px;
+
+  font-size: 16px;
+}
+
+.login-menu .login-form .login-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(91, 73, 252, 0.5);
+}

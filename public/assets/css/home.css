@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.home {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif !important;
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+/* CTA */
+.cta {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  background: linear-gradient(45deg, #042aa6, #0d447d);
+}
+
+.cta h2 {
+  color: #ffffff;
+  text-shadow: 0px 8px 24px #00000051;
+  font-size: 54px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.cta div img {
+  height: 380px;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 26px #00000051;
+}
+
+.cta div .cadastro {
+  background-color: #0d6ede;
+  --color: #0d6ede;
+  font-family: inherit;
+  display: inline-block;
+  width: 11em;
+  height: 2.9em;
+  line-height: 2.5em;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  border: none;
+  transition: color 0.5s;
+  z-index: 1;
+  font-size: 19px;
+  border-radius: 6px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.cta div .cadastro:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: #0d6ede;
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.cta div .cadastro:hover {
+  color: #fff;
+}
+
+.cta div .cadastro:before {
+  top: 100%;
+  left: 100%;
+  transition: all 0.4s;
+}
+
+/* CARDS */
+div .card {
+  padding: 20px;
+  border-radius: 12px;
+  border: solid 1px #000;
+  margin: 15px 15px;
+  width: 80%;
+}
+
+div .card-img-top {
+  width: 60px;
+}
+
+div .card-text img {
+  width: 20px;
+  margin-right: 8px;
+}
+
+.cards-background {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 50px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* CUSTOM SECTIONS */
+.custom-section {
+  width: 100%;
+  padding: 50px 0;
+  color: #fff;
+  text-align: center;
+}
+
+.custom-section .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.custom-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.custom-section p {
+  font-size: 1em;
+  line-height: 1.5em;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 34px;
+  height: 434px;
+  background: linear-gradient(45deg, #0d447d, #042aa6);
+}
+
+.fundo {
+  height: 434px;
+  width: 100%;
+}
+
+.section-1 .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+}
+
+.section-1 .left-content {
+  flex: 1;
+}
+
+.section-1 .right-content {
+  flex: 1;
+  color: #fff;
+  text-align: right;
+}
+
+.section-1 .section-image {
+  height: 400px;
+  max-width: 100%;
+}
+
+.section-1 h2 {
+  color: #ffffff;
+  text-shadow: 0px 8px 24px #00000051;
+  font-size: 48px;
+  font-weight: 500;
+  margin: 0;
+}
+
+/* FAQ CARD */
+
+#faq {
+  position: relative;
+}
+
+.faq-card {
+  position: absolute;
+
+  z-index: 10;
+  top: 80%;
+
+  background-color: #f7f7f7;
+  color: #000000;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq-answer {
+  display: none;
+  padding: 10px;
+  font-size: 16px;
+  color: #080808;
+  border: 0px solid #ddd;
+  border-radius: 12px;
+  margin-top: 5px;
+  background-color: #f1ecec;
+}
+
+.faq-answer.show {
+  display: block;
+}
+
+.faq-right li {
+  margin-bottom: 10px;
+}
+
+.faq-right li a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.faq-right li a:hover {
+  color: #0056b3;
+}
+
+.faq-right li p {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.faq-left {
+  flex: 1;
+  text-align: left;
+  padding-left: 48px;
+}
+
+.faq-left h3 {
+  margin-top: 0;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.faq-left p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.faq-left button {
+  background-color: #0d6ede;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.faq-right {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.faq-right ul {
+  list-style: none;
+  padding: 0;
+}
+
+.faq-right ul li {
+  margin-bottom: 10px;
+}
+
+.faq-right ul li a {
+  text-decoration: underline;
+  color: #0d6ede;
+  font-weight: 500;
+  font-size: 16px;
+}

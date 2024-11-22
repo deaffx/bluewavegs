@@ -1,0 +1,140 @@
+/* PLANOS PAGE STYLES */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.planos-page {
+  font-family: "Roboto", sans-serif !important;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.planos-page h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #004b87; /* Blue */
+  text-align: center;
+  margin: 40px 0;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.26);
+}
+
+.planos-page p {
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.planos-page .botao-plano {
+  background-color: #0d6ede;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 30px;
+}
+
+.planos-page .botao-plano:hover {
+  background-color: #0b5bb3;
+}
+
+.planos-page .plano-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.plano-card {
+  background-color: #fff;
+  padding: 30px;
+  width: 300px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  text-align: center;
+  transition: box-shadow 0.3s ease;
+}
+
+.plano-card:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.26);
+}
+
+.plano-card h3 {
+  font-size: 24px;
+  color: #004b87; /* Blue */
+  margin-bottom: 10px;
+}
+
+.plano-card p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+.plano-card span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #004b87; /* Blue */
+  display: block;
+  margin-bottom: 20px;
+}
+
+.plano-card button {
+  background-color: #0d6ede;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.plano-card button:hover {
+  background-color: #0b5bb3;
+}
+
+@media (max-width: 768px) {
+  .planos-page h1 {
+    font-size: 28px;
+  }
+
+  .planos-page p {
+    font-size: 16px;
+  }
+
+  .planos-page .botao-plano {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+
+  .plano-card {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .plano-card h3 {
+    font-size: 22px;
+  }
+
+  .plano-card p {
+    font-size: 14px;
+  }
+
+  .plano-card span {
+    font-size: 16px;
+  }
+}

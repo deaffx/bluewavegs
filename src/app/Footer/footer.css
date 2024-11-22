@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  background-color: #343434;
+  padding: 0;
+  width: 100%;
+  height: 460px;
+}
+
+footer .conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  gap: 20px;
+}
+
+footer .logo {
+  max-width: 150px;
+  display: block;
+}
+
+footer .redes-sociais {
+  display: flex;
+  gap: 15px;
+}
+
+footer .redes-sociais a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+footer .redes-sociais a img {
+  width: 50px;
+  height: 50px;
+}
+footer .menu {
+  display: flex;
+  gap: 30px;
+}
+
+footer .menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+footer .faixa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #141517;
+  height: 44px;
+  padding: 0 20px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+footer .faixa .left,
+footer .faixa .right {
+  display: flex;
+  align-items: center;
+}
+
+footer .faixa .right a {
+  color: #343434;
+  text-decoration: underline;
+  font-size: 18px;
+}

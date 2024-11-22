@@ -1,0 +1,61 @@
+@media screen and (max-width: 420px) {
+  .login-menu {
+    width: 360px;
+  }
+
+  .login-menu .login-form .login-btn {
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .login-menu {
+    width: 320px;
+  }
+
+  .login-menu .login-form .login-btn {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .login-menu {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  footer .faixa .left {
+    font-size: 12px;
+  }
+  footer .faixa .right a {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  footer .redes-sociais a img {
+    width: 30px;
+    height: 30px;
+  }
+  footer .redes-sociais a {
+    width: 32px;
+    height: 32px;
+  }
+
+  footer .menu a {
+    font-size: 14px;
+  }
+
+  footer .logo {
+    max-width: 120px;
+    display: block;
+  }
+
+  footer .faixa .left {
+    font-size: 11px;
+  }
+  footer .faixa .right a {
+    font-size: 11px;
+  }
+}
