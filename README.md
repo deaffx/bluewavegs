@@ -13,7 +13,7 @@ A solução é projetada para ajudar tanto na análise de desempenho dos sistema
 - **Planos:** Apresentação de opções para maximizar o uso da energia gerada.
 - **Contato:** Formulário para que usuários possam entrar em contato para suporte ou mais informações.
 - **Entrar:** Tela de login para autenticação de usuários cadastrados.
-- **Cadastrar:** Tela para registro de novos usuários.
+- **Cadastrar:** Tela para registro aos novos usuários.
 
 ## Estrutura do Projeto
 
