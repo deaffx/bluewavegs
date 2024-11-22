@@ -45,3 +45,34 @@ Cada página foi projetada para ser responsiva e garantir uma experiência de na
 
    ```bash
    git clone https://github.com/seuprojeto/energia-renovavel.git
+   ```
+2. Navegue até o diretório do projeto:
+
+   ```bash
+   cd energia-renovavel
+   ```
+Instale as dependências:
+
+   ```bash
+   npm install
+   ```
+
+Execute o projeto:
+
+   ```bash
+   npm run dev
+   ```
+
+Acesse o sistema em http://localhost:3000.
+
+## **Desafios Enfrentados**
+   - Geração Sustentável: Monitorar com precisão a geração de energia a partir do movimento das ondas e correntes marinhas.
+   - Métricas e Dados: Desenvolver gráficos e relatórios claros sobre a eficiência do sistema de geração.
+   - Planos Personalizados: Criar um sistema que permita aos usuários otimizar o uso da energia gerada.
+   - Conscientização: Proporcionar uma interface amigável para educar os usuários sobre os benefícios da energia renovável.
+   
+## **Integrantes**
+
+- **Thiago Moreno Matheus - RM554507**
+- **Celso Canaveze Teixeira Pinto - RM556118**
+- **Renan Olivi de Moura - RM557680**
