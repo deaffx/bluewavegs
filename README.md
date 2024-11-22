@@ -44,20 +44,16 @@ Cada página foi projetada para ser responsiva e garantir uma experiência de na
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seuprojeto/energia-renovavel.git
+   git clone https://github.com/bluewavegs.git
    ```
-2. Navegue até o diretório do projeto:
 
-   ```bash
-   cd energia-renovavel
-   ```
-Instale as dependências:
+2. Instale as dependências:
 
    ```bash
    npm install
    ```
 
-Execute o projeto:
+3. Execute o projeto:
 
    ```bash
    npm run dev
